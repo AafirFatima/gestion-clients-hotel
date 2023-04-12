@@ -25,5 +25,9 @@
     {
         Prenom = nouveauPrenom;
     }
+    public void ModifierCourriel(string nouveauCourriel)
+    {
+        Courriel = nouveauCourriel;
+    }
 
 }
