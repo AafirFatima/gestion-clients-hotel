@@ -14,4 +14,11 @@
         CarteCredit = carteCredit;
         NumeroChambre = numeroChambre;
     }
+    // Ajout d'une méthode pour modifier une propriété
+    public void ModifierNom(string nouveauNom)
+    {
+        Nom = nouveauNom;
+        
+  
+    }
 }
