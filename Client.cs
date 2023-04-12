@@ -21,4 +21,9 @@
         
   
     }
+    public void ModifierPrenom(string nouveauPrenom)
+    {
+        Prenom = nouveauPrenom;
+    }
+
 }
