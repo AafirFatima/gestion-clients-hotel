@@ -31,6 +31,7 @@
     }
     public void AfficherInfosClient()
     {
+        // Ce commentaire a été ajouté dans la branche conflict-branch
         Console.WriteLine($"Nom: {Nom}, Prénom: {Prenom}, Courriel: {Courriel}, Carte de crédit: {CarteCredit}, Numéro de chambre: {NumeroChambre}");
     }
 
