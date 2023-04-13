@@ -31,8 +31,10 @@
     }
     public void AfficherInfosClient()
     {
-        Console.WriteLine($"Nom: {Nom}, Prénom: {Prenom}, Courriel: {Courriel}, Carte de crédit: {CarteCredit}, Numéro de chambre: {NumeroChambre}");
+        // Ce commentaire a été ajouté dans la branche conflict-branch   // un autre commentaire difféent
+        Console.WriteLine($"Nom : {Nom}, Prénom : {Prenom}, Courriel : {Courriel}, Carte de crédit : {CarteCredit}, Numéro de chambre : {NumeroChambre}");
     }
+
 
 
 }
