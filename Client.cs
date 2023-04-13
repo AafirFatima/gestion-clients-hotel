@@ -29,5 +29,10 @@
     {
         Courriel = nouveauCourriel;
     }
+    public void AfficherInfosClient()
+    {
+        Console.WriteLine($"Nom: {Nom}, Prénom: {Prenom}, Courriel: {Courriel}, Carte de crédit: {CarteCredit}, Numéro de chambre: {NumeroChambre}");
+    }
+
 
 }
